@@ -1,0 +1,10 @@
+# Allow all user agents to crawl the entire site
+User-agent: *
+Disallow:
+
+# Allow Googlebot to crawl the entire site
+User-agent: Googlebot
+Disallow:
+
+# Sitemap location
+Sitemap: https://www.zappush.com/sitemap.xml
