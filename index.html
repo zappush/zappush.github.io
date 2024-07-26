@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +15,8 @@
     <!-- Calendly badge widget begin -->
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-    <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/aditya-zappush/30min', text: 'Schedule a call', color: '#0069ff', textColor: '#ffffff', branding: undefined }); }</script>
+    <script
+        type="text/javascript">window.onload = function () { Calendly.initBadgeWidget({ url: 'https://calendly.com/aditya-zappush/30min', text: 'Schedule a call', color: '#0069ff', textColor: '#ffffff', branding: undefined }); }</script>
     <!-- Calendly badge widget end -->
 
     <meta name="msapplication-TileColor" content="#ff5e33">
@@ -23,24 +25,40 @@
     <meta name="author" content="Zappush">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Zappush helps ecommerce businesses create smart, data-driven campaigns across Email, Web Push, SMS, and WhatsApp to boost conversions and engage customers.">
-    <meta name="keywords" content="ecommerce campaigns, email marketing, SMS marketing, web push notifications, WhatsApp marketing, abandoned cart recovery, shopify sale booster">
+    <meta name="description"
+        content="Zappush helps ecommerce businesses create smart, data-driven campaigns across Email, Web Push, SMS, and WhatsApp to boost conversions and engage customers.">
+    <meta name="keywords"
+        content="ecommerce campaigns, email marketing, SMS marketing, web push notifications, WhatsApp marketing, abandoned cart recovery, shopify sale booster">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="canonical" href="https://www.zappush.com">
-    
+
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Zappush - Powerful Ecommerce Campaigns">
-    <meta property="og:description" content="Create data-driven campaigns across Email, Web Push, SMS, and WhatsApp to boost your ecommerce conversions.">
+    <meta property="og:description"
+        content="Create data-driven campaigns across Email, Web Push, SMS, and WhatsApp to boost your ecommerce conversions.">
     <meta property="og:image" content="https://www.zappush.com/og-image.png">
     <meta property="og:url" content="https://www.zappush.com">
     <meta property="og:type" content="website">
-    
+
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Zappush - Powerful Ecommerce Campaigns">
-    <meta name="twitter:description" content="Create data-driven campaigns across Email, Web Push, SMS, and WhatsApp to boost your ecommerce conversions.">
+    <meta name="twitter:description"
+        content="Create data-driven campaigns across Email, Web Push, SMS, and WhatsApp to boost your ecommerce conversions.">
     <meta name="twitter:image" content="https://www.zappush.com/og-image.png">
     <meta name="twitter:site" content="@zappush">
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                }); var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-M6S3ML5H');
+    </script>
+    <!-- End Google Tag Manager -->
 
     <style>
         :root {
@@ -50,13 +68,13 @@
             --card-bg: #2a2a2a;
             --accent-color: #ff8c66;
         }
-        
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             font-family: 'Inter', sans-serif;
             background-color: var(--bg-color);
@@ -64,7 +82,7 @@
             line-height: 1.6;
             overflow-x: hidden;
         }
-        
+
         .container {
             max-width: 1200px;
             margin: 0 auto;
@@ -72,7 +90,7 @@
             position: relative;
             z-index: 1;
         }
-        
+
         header {
             background-color: rgba(26, 26, 26, 0.8);
             backdrop-filter: blur(10px);
@@ -82,19 +100,19 @@
             top: 0;
             z-index: 1000;
         }
-        
+
         nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-        
+
         .logo {
             font-weight: 800;
             font-size: 1.8rem;
             color: var(--main-color);
         }
-        
+
         .nav-links a {
             color: var(--text-color);
             text-decoration: none;
@@ -103,22 +121,22 @@
             font-weight: 400;
             transition: color 0.3s ease;
         }
-        
+
         .nav-links a:hover {
             color: var(--main-color);
         }
-        
+
         main {
             margin-top: 80px;
         }
-        
+
         .hero {
             text-align: center;
             padding: 120px 0;
             position: relative;
             overflow: hidden;
         }
-        
+
         .background-elements {
             position: absolute;
             top: 0;
@@ -127,21 +145,21 @@
             height: 100%;
             pointer-events: none;
         }
-        
+
         .vector {
             position: absolute;
             background-color: rgba(255, 255, 255, 0.03);
             border-radius: 50%;
             animation: float 20s infinite ease-in-out;
         }
-        
+
         .vector:nth-child(1) {
             width: 300px;
             height: 300px;
             top: -150px;
             left: -150px;
         }
-        
+
         .vector:nth-child(2) {
             width: 200px;
             height: 200px;
@@ -149,7 +167,7 @@
             right: -100px;
             animation-delay: -5s;
         }
-        
+
         .vector:nth-child(3) {
             width: 150px;
             height: 150px;
@@ -157,12 +175,19 @@
             left: 20%;
             animation-delay: -10s;
         }
-        
+
         @keyframes float {
-            0%, 100% { transform: translateY(0) rotate(0deg); }
-            50% { transform: translateY(-20px) rotate(10deg); }
+
+            0%,
+            100% {
+                transform: translateY(0) rotate(0deg);
+            }
+
+            50% {
+                transform: translateY(-20px) rotate(10deg);
+            }
         }
-        
+
         h1 {
             font-weight: 800;
             font-size: 3.5rem;
@@ -171,7 +196,7 @@
             transform: translateY(20px);
             animation: fadeInUp 1s forwards;
         }
-        
+
         .subtitle {
             font-size: 1.2rem;
             font-weight: 300;
@@ -181,7 +206,7 @@
             animation: fadeInUp 1s 0.5s forwards;
             color: var(--accent-color);
         }
-        
+
         .cta-button {
             display: inline-block;
             background-color: var(--main-color);
@@ -196,20 +221,20 @@
             transform: translateY(20px);
             animation: fadeInUp 1s 1s forwards;
         }
-        
+
         .cta-button:hover {
             background-color: var(--accent-color);
             transform: translateY(-3px);
             box-shadow: 0 4px 15px rgba(255, 94, 51, 0.3);
         }
-        
+
         .features {
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
             margin-top: 80px;
         }
-        
+
         .feature {
             flex-basis: calc(33.333% - 40px);
             background-color: var(--card-bg);
@@ -221,30 +246,30 @@
             transform: translateY(20px);
             animation: fadeInUp 1s 1.5s forwards;
         }
-        
+
         .feature:hover {
             transform: translateY(-10px);
             box-shadow: 0 10px 20px rgba(255, 94, 51, 0.1);
         }
-        
+
         .feature-icon {
             font-size: 2rem;
             color: var(--main-color);
             margin-bottom: 15px;
         }
-        
+
         .feature h3 {
             font-weight: 600;
             font-size: 1.3rem;
             margin-bottom: 10px;
             color: var(--accent-color);
         }
-        
+
         .feature p {
             font-weight: 300;
             font-size: 0.9rem;
         }
-        
+
         footer {
             background-color: var(--card-bg);
             color: var(--text-color);
@@ -256,73 +281,81 @@
             position: relative;
             z-index: 1;
         }
-        
+
         @keyframes fadeInUp {
             to {
                 opacity: 1;
                 transform: translateY(0);
             }
         }
-        
+
         @media (max-width: 768px) {
             .feature {
                 flex-basis: 100%;
             }
         }
 
-                /* ... (previous styles remain the same) ... */
-        
-                .support-section {
+        /* ... (previous styles remain the same) ... */
+
+        .support-section {
             background-color: var(--card-bg);
             padding: 80px 0;
             margin-top: 80px;
             text-align: center;
         }
-        
+
         .support-content {
             max-width: 600px;
             margin: 0 auto;
         }
-        
+
         .support-section h2 {
             font-weight: 700;
             font-size: 2.5rem;
             margin-bottom: 30px;
             color: var(--accent-color);
         }
-        
+
         .support-section p {
             margin-bottom: 20px;
             font-size: 1.1rem;
             line-height: 1.6;
         }
-        
+
         .support-section a {
             color: var(--main-color);
             text-decoration: none;
             font-weight: 600;
             transition: color 0.3s ease;
         }
-        
+
         .support-section a:hover {
             color: var(--accent-color);
         }
-        
+
         .support-icon {
             font-size: 3rem;
             color: var(--main-color);
             margin-bottom: 20px;
         }
-
     </style>
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Zappush - Powerful Ecommerce Campaigns">
-    <meta property="og:description" content="Create data-driven campaigns across Email, Web Push, SMS, and WhatsApp to boost your ecommerce conversions.">
+    <meta property="og:description"
+        content="Create data-driven campaigns across Email, Web Push, SMS, and WhatsApp to boost your ecommerce conversions.">
     <meta property="og:image" content="https://www.zappush.com/og-image.jpg">
     <meta property="og:url" content="https://www.zappush.com">
     <meta property="og:type" content="website">
 </head>
+
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6S3ML5H" height="0" width="0" style="display:none;visibility:hidden">
+        </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <header>
         <nav class="container">
             <div class="logo">zappush</div>
@@ -332,7 +365,7 @@
             </div>
         </nav>
     </header>
-    
+
     <main>
         <section class="hero">
             <div class="background-elements">
@@ -344,22 +377,25 @@
                 <h1>Unlock the Power of Ecommerce Campaigns</h1>
                 <p class="subtitle">Elevate your campaigns across Email, Web Push, SMS, and WhatsApp</p>
                 <!-- <a href="https://discord.com/invite/y6yPVWjdD9" target="_blank" rel="noopener" class="cta-button">Get Started</a> -->
-                 <a href="https://calendly.com/aditya-zappush/30min" class="cta-button" target="_blank" rel="noopener">Get started</a>
+                <a href="https://calendly.com/aditya-zappush/30min" class="cta-button" target="_blank"
+                    rel="noopener">Get started</a>
             </div>
         </section>
-        
+
         <section id="features" class="container">
             <h2 class="visually-hidden">Our Features</h2>
             <div class="features">
                 <article class="feature">
                     <div class="feature-icon" aria-hidden="true">→</div>
                     <h3>Smart Campaigns</h3>
-                    <p>Create data-driven campaigns that boost conversions, recover abandoned carts, target specific customer segments, and more</p>
+                    <p>Create data-driven campaigns that boost conversions, recover abandoned carts, target specific
+                        customer segments, and more</p>
                 </article>
                 <article class="feature">
                     <div class="feature-icon" aria-hidden="true">→</div>
                     <h3>Instant Engagement</h3>
-                    <p><b style="color: #ff5e33">Convert one time store visitors to subscribers.</b> Reach customers in real-time across multiple channels including email, SMS, web push, and WhatsApp</p>
+                    <p><b style="color: #ff5e33">Convert one time store visitors to subscribers.</b> Reach customers in
+                        real-time across multiple channels including email, SMS, web push, and WhatsApp</p>
                 </article>
                 <article class="feature">
                     <div class="feature-icon" aria-hidden="true">→</div>
@@ -369,28 +405,30 @@
             </div>
         </section>
     </main>
-    
+
     <section class="support-section">
-      <div class="container">
-          <div class="support-content">
-              <div class="support-icon" aria-hidden="true">👋</div>
-              <h2>We're Here for You</h2>
-              <p>
-                  Our support has a face you can trust and reach out to anytime. Join our <a href="https://discord.com/invite/y6yPVWjdD9" target="_blank" rel="noopener">Discord</a> community to get started.
-              </p>
-              <p>
-                  or, email us at <a href="mailto:support@zappush.com">support@zappush.com</a>
-              </p>
-          </div>
-      </div>
+        <div class="container">
+            <div class="support-content">
+                <div class="support-icon" aria-hidden="true">👋</div>
+                <h2>We're Here for You</h2>
+                <p>
+                    Our support has a face you can trust and reach out to anytime. Join our <a
+                        href="https://discord.com/invite/y6yPVWjdD9" target="_blank" rel="noopener">Discord</a>
+                    community to get started.
+                </p>
+                <p>
+                    or, email us at <a href="mailto:support@zappush.com">support@zappush.com</a>
+                </p>
+            </div>
+        </div>
     </section>
 
     <footer>
-      <div class="container">
-          <p>Installation and setup guide coming soon</p> 
-      </div>
+        <div class="container">
+            <p>Installation and setup guide coming soon</p>
+        </div>
     </footer>
-    
+
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -405,7 +443,7 @@
       "description": "Zappush helps ecommerce businesses create smart, data-driven campaigns across Email, Web Push, SMS, and WhatsApp to boost conversions and engage customers."
     }
     </script>
-    
+
     <script>
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
@@ -417,4 +455,5 @@
         });
     </script>
 </body>
+
 </html>
