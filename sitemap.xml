@@ -8,8 +8,10 @@
 
 
 <url>
-  <loc>http://www.zappush.com/</loc>
+  <loc>https://www.zappush.com/</loc>
   <lastmod>2024-07-23T21:41:11+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1.00</priority>
 </url>
 
 
